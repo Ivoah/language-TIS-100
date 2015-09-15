@@ -2,7 +2,8 @@
   'TIS',
   'tis',
   'TIS-100',
-  'tis-100'
+  'tis-100',
+  'txt'
 ]
 'name': 'TIS-100 Assembly'
 'scopeName': 'source.TIS'
