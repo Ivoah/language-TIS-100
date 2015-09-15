@@ -1,0 +1,35 @@
+'fileTypes': [
+  'TIS',
+  'tis',
+  'TIS-100',
+  'tis-100'
+]
+'name': 'TIS-100 Assembly'
+'scopeName': 'source.TIS'
+'patterns': [
+  {
+    'match': '[#].*$'
+    'name': 'comment.line'
+  }
+  {
+    'match': '\\b(?i:nop|mov|swp|sav|add|sub|neg|jmp|jez|jnz|jgz|jlz|jro)\\b'
+    'name': 'keyword.mnemonic'
+  }
+  {
+    'match': '\\b(?i:acc|bak|nil|left|right|up|down|any|last)\\b'
+    'name': 'storage.register'
+  }
+  {
+    'match': '^\\s*\\.?\\w+:\\s*(?=$|;)'
+    'name': 'entity.name.function'
+  }
+  {
+    'match': '^\\s*\\.?\\w+:\\s*(?=$|;)'
+    'name': 'entity.name.function'
+  }
+  {
+    'match': '\\b[0-9]+d?\\b'
+    'name': 'constant.numeric.dec'
+  }
+]
+'scopeName': 'source.asm.TIS'
