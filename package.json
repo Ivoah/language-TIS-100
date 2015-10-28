@@ -1,6 +1,6 @@
 {
   "name": "language-TIS-100",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Adds syntax highlighting to TIS-100 asm files in Atom.",
   "homepage": "https://github.com/Ivoah/language-TIS-100",
   "repository": {
